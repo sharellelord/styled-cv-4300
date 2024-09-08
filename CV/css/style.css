@@ -1,0 +1,202 @@
+body {
+    background-color: #FEFAE0;
+    margin: 0;
+}
+
+nav{
+    background-color: #B99470;
+    border-style:dotted;
+    border-color: black;
+    border-width: 0.07cm;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.navText{
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    background-color: #A6B37D;
+    border-style:dashed;
+    border-color: black;
+    border-radius: 10%;
+    border-width: 0.06cm;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.splash {
+    position: relative;
+    background-color: #C0C78C;
+    border-color: #A6B37D;
+    border-style: inset;
+    border-width: 1cm;
+    border-radius: 10px 100px;
+    margin: 40px;
+    padding-bottom: 30px;
+    z-index: 1; /* Ensure content stays on top */
+}
+
+.splash::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/022/791/601/small/polygonal-turkey-map-free-png.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2; /* Adjust transparency level */
+    z-index: -1; /* Places the background image behind the content */
+    
+}
+
+h1 {
+  color: #864f18;  
+  font-size: 3em;
+  font-family: "Anton SC", sans-serif;
+  margin: 1%;
+}
+
+img {
+    border-radius:5cqi;
+    border-color: #505c2e;
+    border-width: 0.15cm;
+    border-style:double;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textStyle{
+    background-color: #505c2e;
+    border-radius: 5cqi;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.textSpace{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1em;
+}
+
+.tagline{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-style: italic;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1em;
+}
+
+hr{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #864f18;
+}
+
+h2{
+    font-family: "Baskervville SC", serif;
+    color:#505c2e;
+    font-size: 30px;
+    font-weight: 3000px;
+    margin-left: 20px;
+}
+
+.edu{
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+ul{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1em;
+}
+
+dl{
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.gridList {
+    display: grid;
+    grid-template-columns: 1fr 6fr; /* Adjust column sizes as needed */
+    gap: 5px 10px; /* Adjust spacing between rows and columns */
+    margin: 20px;
+ }
+.gridList dt {
+    font-weight: bold;
+    grid-column: 1; /* Places terms in the first column */
+}
+  
+.gridList dd {
+    margin: 0;
+    grid-column: 2; /* Places descriptions in the second column */
+}
+
+a{
+    text-decoration: none;
+    color:#505c2e
+}
+
+ a:hover{
+        color: white;
+ }
+
+ .connect{
+    color:#4ea70b
+ }
+
+ .connect:hover{
+    color:#864f18;
+ }
+
+ .three-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px; 
+ }
+
+ h3{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.5em;
+    
+ }
+
+ .card {
+    background-color:#e0e9c3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1);
+    text-align:start;
+  }
+
+  .one-col{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1em;
+    flex: 1;
+    padding: 20px;
+  }
+
